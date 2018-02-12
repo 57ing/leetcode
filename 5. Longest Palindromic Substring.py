@@ -5,6 +5,7 @@
 @contact: black8clock@gmail.com
 @file: 5. Longest Palindromic Substring.py
 @time: 2018/2/2 20:04
+遍历一遍字符串，对每个字符进行判断，注意需要特别考虑s[i]=s[i+1]的情况
 '''
 class Solution:
     def longestPalindrome(self, s):
